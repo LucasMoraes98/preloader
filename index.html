@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Preloader</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+      body {
+  text-align: center;
+  height: 100%;
+  background: linear-gradient(45deg,  #FAFAFA);
+  margin: 80px 0px 0px 0px;
+}
+
+.progress-bar {
+  width: 50%;
+  height: 20px;
+  margin: 80px auto;
+  padding: 12px;
+  background: white;
+  border-radius: 10px;
+}
+
+.progress {
+  width: 0%;
+  height: 100%;
+  background: #709DD3;
+  animation: fill 5s ease infinite;
+}
+
+@keyframes fill {
+  0% {
+    width: 0%;
+  }
+  
+  50% {
+    width: 100%;
+  }
+  
+  100% {
+    width: 1%;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbe_BeoekTTWZ-UATfjjR1b-u2hRoVn1X9YSvwTPHPbXHiCmoDZJPpqeE6snsEbxDtOPm12VDiXg9irqTGc4x2iHocPJC-OIhoQk0hPe7OwO0P4aKYNwezJXdlcs4Xyw3a0IEhhLXmxd_1pQM_GjvtamLYDEt0NDpSVj3HhQKsKNGpolAKS7fdFBV8vQ/s16000/logo-login.png">
+    <div class="progress-bar">
+      <div class="progress"></div>
+    </div>
+  </body>
+</html>

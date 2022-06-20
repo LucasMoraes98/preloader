@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <style type="text/css">
+      body {
+  text-align: center;
+  height: 100%;
+  background: linear-gradient(45deg,  #FAFAFA);
+  margin: 80px 0px 0px 0px;
+}
+    .loading {
+      margin: 60px auto;
+      border: 3px solid white;
+      background: #709DD3;
+      width: 60px;
+      height: 60px;
+      border-radius: 4px;
+
+      /* Aqui declaramos nossa animação inline */
+      animation: rotate 3s infinite linear;
+    }
+    
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+    }
+  </style>
+    <title>Preloader2</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbe_BeoekTTWZ-UATfjjR1b-u2hRoVn1X9YSvwTPHPbXHiCmoDZJPpqeE6snsEbxDtOPm12VDiXg9irqTGc4x2iHocPJC-OIhoQk0hPe7OwO0P4aKYNwezJXdlcs4Xyw3a0IEhhLXmxd_1pQM_GjvtamLYDEt0NDpSVj3HhQKsKNGpolAKS7fdFBV8vQ/s16000/logo-login.png">
+    <div class="loading"></div>
+  </body>
+</html>
